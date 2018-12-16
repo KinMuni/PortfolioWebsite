@@ -1,0 +1,70 @@
+body{
+  font-family:'Open-sans', sans-serif;
+  font-size: 17px;
+  line-height: 1.6em;
+ background:linear-gradient(to bottom right, white, #bcbdc4);
+}
+
+.banner{
+  background-image:url(images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  padding:100px 0px;
+  color:black;
+  margin:0 auto;
+  text-align: center;
+}
+.container{
+  max-width:100%;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+.navabar-minimal{
+  display:flex;
+  justify-content: space-between;
+  font-weight:bold;
+  text-align: right;
+}
+.navabar-minimal img{
+  width:48px;
+  height:40px;
+  padding-top:20px;
+}
+img{
+  max-width:100%;
+}
+.img-project{
+
+  margin:0 5px;
+  width:30%;
+  text-align:center;
+
+  }
+
+@media screen and (max-width:1000px){
+  .container{
+    width:100%;
+  }
+  .img-project{
+    width:100%;
+}
+
+@media screen and (max-width:760px){
+  .container{
+    width:100%;
+  }
+  .img-project{
+  width:100%;
+
+  }
+
+}
+@media screen and (max-width:450px){
+  .container{
+    width:100%;
+  }
+  .img-project{
+  width:100%;
+}
+}
